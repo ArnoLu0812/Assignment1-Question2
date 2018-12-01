@@ -33,11 +33,13 @@ public class VanAndCar {
     int v=vp/7;
     System.out.print("The number of bus is ");
     System.out.println(b);
-    if(vp<=7);
+    if(vp<=7&&vp!=0){
     System.out.print("The number of van is ");
     System.out.println(v+1);
     }
-    
+    else{
+        System.out.println("The number of van is 0")
+    }
     
     
      
